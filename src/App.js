@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
      {/* <LifecycleA></LifecycleA> */}
-     {/* <ParentLifeCycle></ParentLifeCycle> */}
-     <PostData></PostData>
+     <ParentLifeCycle></ParentLifeCycle>
+     {/* <PostData></PostData> */}
     </div>
   );
 }
