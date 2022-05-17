@@ -11,7 +11,7 @@ export default class ParentLifeCycle extends Component {
     return (
       <div>ParentLifeCycle
 
-<ChildLifeCycle></ChildLifeCycle>
+      <ChildLifeCycle></ChildLifeCycle>
       </div>
       
     )
