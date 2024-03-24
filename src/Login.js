@@ -5,9 +5,6 @@ let Login = () => {
   var [password, setPassword] = useState("");
 
   //executes on each render (initial render & state updates)
-  useEffect(() => {
-    //console.log(email, password);
-  });
 
   //executes only on state updates of "email" only (and also with initial render)
   useEffect(() => {
@@ -19,7 +16,7 @@ let Login = () => {
     // }
     console.log("email",email)
     console.log("password",password)
-  }, [email]);
+  },[password]);
 
   return (
     <div className="row">

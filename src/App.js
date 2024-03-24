@@ -10,11 +10,13 @@ import Registerform from './Registerform';
 import Forms from './Forms';
 import LifCycleC from './LifCycleC';
 import Login from './Login';
+import LifecycleD from './LifecycleD';
 
 function App() {
   return (
     <div className="App">
-      <LifecycleA></LifecycleA>
+      <Login></Login>
+      {/* <LifecycleD></LifecycleD> */}
       {/* <Login></Login> */}
      {/* <LifecycleA></LifecycleA>
      <LifCycleC></LifCycleC> */}
