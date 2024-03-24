@@ -8,15 +8,19 @@ import PostApiCall from './PostApiCall';
 import GetApi from './GetApi';
 import Registerform from './Registerform';
 import Forms from './Forms';
+import LifCycleC from './LifCycleC';
+import Login from './Login';
 
 function App() {
   return (
     <div className="App">
-     {/* <LifecycleA></LifecycleA> */}
+      <Login></Login>
+     {/* <LifecycleA></LifecycleA>
+     <LifCycleC></LifCycleC> */}
      {/* <PostApiCall></PostApiCall> */}
      {/* <PostData></PostData> */}
      {/* <GetApi></GetApi> */}
-     <Registerform></Registerform>
+     {/* <Registerform></Registerform> */}
      {/* <Forms></Forms> */}
     </div>
   );
