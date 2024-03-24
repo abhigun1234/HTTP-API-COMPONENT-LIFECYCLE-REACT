@@ -14,7 +14,8 @@ import Login from './Login';
 function App() {
   return (
     <div className="App">
-      <Login></Login>
+      <LifecycleA></LifecycleA>
+      {/* <Login></Login> */}
      {/* <LifecycleA></LifecycleA>
      <LifCycleC></LifCycleC> */}
      {/* <PostApiCall></PostApiCall> */}
